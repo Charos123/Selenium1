@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6e0d81-c476-4cb7-b9d0-ad358c7b397d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/OfficeHour2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/FakerPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/GetAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/LinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/VerifyErrorMassage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/VerifyLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_Locators/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_Locators/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day2_Locators/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day2_Locators/Login.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +50,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration name="Bookit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Day1_Navigation.Bookit" />
+  <component name="RunManager" selected="Application.LinkText">
+    <configuration name="FakerPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_locators2.FakerPractice" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.Day1_Navigation.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day3_locators2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day2_Locators.FindElement" />
+    <configuration name="GetAttributeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_locators2.GetAttributeValue" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day2_Locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day3_locators2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Homework2" />
+    <configuration name="LinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_locators2.LinkText" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.Day1_Navigation.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day3_locators2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day2_Locators.Login" />
+    <configuration name="VerifyErrorMassage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_locators2.VerifyErrorMassage" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day2_Locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day3_locators2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumOh1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.SeleniumOh1" />
+    <configuration name="VerifyLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_locators2.VerifyLogin" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day3_locators2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.FindElement" />
-        <item itemvalue="Application.Bookit" />
-        <item itemvalue="Application.SeleniumOh1" />
-        <item itemvalue="Application.Homework2" />
+        <item itemvalue="Application.LinkText" />
+        <item itemvalue="Application.GetAttributeValue" />
+        <item itemvalue="Application.FakerPractice" />
+        <item itemvalue="Application.VerifyErrorMassage" />
+        <item itemvalue="Application.VerifyLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -151,32 +160,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="484" y="315" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1583279455189" />
-    <state width="1398" height="186" key="GridCell.Tab.0.bottom" timestamp="1583289153152">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1583375467615">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583288827904" />
-    <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583289153152" />
-    <state width="1398" height="186" key="GridCell.Tab.0.center" timestamp="1583289153151">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583375467615" />
+    <state width="729" height="186" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583336461903" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1583375467614">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583288827902" />
-    <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583289153151" />
-    <state width="1398" height="186" key="GridCell.Tab.0.left" timestamp="1583289153147">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583375467614" />
+    <state width="729" height="186" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583336461902" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1583375467613">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583288827901" />
-    <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583289153147" />
-    <state width="1398" height="186" key="GridCell.Tab.0.right" timestamp="1583289153152">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583375467613" />
+    <state width="729" height="186" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583336461902" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1583375467615">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583288827903" />
-    <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583289153152" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583375467615" />
+    <state width="729" height="186" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583336461902" />
     <state x="221" y="59" key="SettingsEditor" timestamp="1583280200430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="59" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583280200430" />
     <state x="221" y="77" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1583080274625" />
     <state x="221" y="77" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1583012974978" />
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1583351132814">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583351132814" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1583081801846">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -50,6 +50,7 @@ public class Login {
          }else{
              System.out.println("Fail");
          }
+        driver.close();
 
 
 
