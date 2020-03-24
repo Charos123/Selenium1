@@ -62,7 +62,7 @@ public class OfficeHour2 {
          */
         WebElement addToCart = driver.findElement(By.className("button ajax_add_to_cart_button btn btn-default"));
         addToCart.click();
-//        driver.quit();
+       driver.quit();
     }
 
     //driver.quit();

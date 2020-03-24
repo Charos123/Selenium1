@@ -47,7 +47,7 @@ public class Navigations {
         driver.close();
 
         //close  down all the  windows in  web browser
-        driver.quit();
+        driver.close();
 
     }
 }

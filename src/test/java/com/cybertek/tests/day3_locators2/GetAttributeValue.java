@@ -29,6 +29,7 @@ public class GetAttributeValue {
         //i want to print class attributes velue
         System.out.println(loginbttn.getAttribute("class"));
         //getText vs getAttribute
+         driver.close();
 
 
 

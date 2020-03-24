@@ -48,7 +48,7 @@ public class FirstClass {
         Thread.sleep(2000);
         driver.navigate().back();//google
 
-
+driver.close();
 
 
 

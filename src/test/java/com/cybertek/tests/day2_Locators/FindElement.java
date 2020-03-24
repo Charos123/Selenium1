@@ -32,6 +32,6 @@ public class FindElement {
         //write your password to the password text box
         driver.findElement(By.id("okta-signin-password")).sendKeys("cha1235");
 
-
+driver.close();
     }
 }

@@ -30,7 +30,7 @@ public class VerifyErrorMassage {
         driver.findElement(By.name("password")).sendKeys(password);
         driver.findElement(By.id("wooden_spoon")).click();
 
-
+driver.close();
 
 
 

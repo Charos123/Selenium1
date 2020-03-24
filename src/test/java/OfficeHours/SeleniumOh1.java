@@ -39,6 +39,7 @@ public class SeleniumOh1 {
         while (mapIterator.hasNext()) {
             String key = mapIterator.next();
             System.out.println(mapIterator.next() + ":" + personalInfo.get(key));
+
         }
 
     //=================

@@ -105,6 +105,8 @@ public class Bookit {
 
             String URL= driver.getCurrentUrl();
             System.out.println("URL = " + URL);
+            driver.close();
         }
+
     }
 }

@@ -49,5 +49,7 @@ public class LinkText {
         WebElement home =driver.findElement(By.linkText("Home"));
         String textVersion1=home.getText();
         System.out.println("textVersion1 : "+textVersion1);
+        driver.close();
     }
+
 }

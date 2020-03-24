@@ -39,6 +39,7 @@ public class FakerPractice {
 
         WebElement click=driver.findElement(By.id("wooden_spoon"));
         click.click();
+         driver.close();
 
 
     }
