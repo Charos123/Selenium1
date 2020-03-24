@@ -28,9 +28,13 @@ public class HomeworkShortCuts {
     }
 
     private static void shortcuts() throws InterruptedException {
+       // 1. Open browser
         WebDriver driver= WebDriverFactory.getDriver("chrome");
+
+       // 2. Go to Vytrack login page
         driver.get("https://qa3.vytrack.com");
 
+        //3. Login as a sales manager
         WebElement username= driver.findElement(By.id("prependedInput"));
         username.sendKeys("SalesManager110");
         Thread.sleep(2000);
@@ -39,19 +43,23 @@ public class HomeworkShortCuts {
         password.sendKeys("UserUser123");
         password.submit();
 
+        // 4. Verify Dashboard page is open
         Thread.sleep(2000);
          String expectedTitle ="Dashboard";
          String actualTitle= driver.getTitle();
 
+        // 4. Verify Dashboard page is open
         verifyStartsWith(expectedTitle, actualTitle);
 
+       // 5. Click on Shortcuts icon
         WebElement shortCut =driver.findElement(By.cssSelector("a[title='Shortcuts']"));
         shortCut.click();
 
+       // 6. Click on link See full list
         WebElement allLinks=driver.findElement(By.linkText("See full list"));
         allLinks.click();
 
-
+        //   7. Click on link Opportunities
         Thread.sleep(2000);
         WebElement opportunities = driver.findElement(By.linkText("Opportunities"));
         opportunities.click();
@@ -60,13 +68,17 @@ public class HomeworkShortCuts {
         expectedTitle= "Open Opportunities";
         actualTitle=driver.getTitle();
 
-
+    //    8. Verify Open opportunities page is open
         Thread.sleep(2000);
         verifyStartsWith("Open Opportunities",driver.getTitle());
 
+        //   9. Click on Shortcuts icon
         shortCut.click();
+
+       // 10. Click on link See full list
         allLinks.click();
 
+        //  11. Click on link Vehicle Service Logs
         Thread.sleep(2000);
         WebElement VehicleServiceLogs = driver.findElement(By.linkText("Vehicle Services Logs"));
         VehicleServiceLogs.click();
@@ -75,10 +87,16 @@ public class HomeworkShortCuts {
         WebElement errorMessage= driver.findElement(By.cssSelector(".message"));
        // System.out.println(errorMessage.getText());
 
+
+        // 12. Verify error message text is You do not have
+        //        permission to perform this action.
         verifyStartsWith("You do not have permission to perform this action.",errorMessage.getText());
 
+        // 13. Verify Shortcut Actions List page is still open
+        verifyStartsWith("Shortcut Actions List",driver.getTitle());
+        driver.quit();
 
-       // driver.close();
+
         }
 
     private static void verifyStartsWith(String expectedTitle, String actualTitle) {
@@ -90,7 +108,6 @@ public class HomeworkShortCuts {
             System.out.println("actual "  +actualTitle);
         }
     }
-    //write a method that takes 2 strings, verifies if string 2
 
 
 
