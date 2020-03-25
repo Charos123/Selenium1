@@ -10,7 +10,6 @@ import java.util.HashMap;
 
 public class Vytrack {
     public static void main(String[] args) throws InterruptedException {
-
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.get("http://qa3.vytrack.com");
         WebElement username = driver.findElement(By.id("prependedInput"));
@@ -31,13 +30,13 @@ public class Vytrack {
         create_contact.click();
         Thread.sleep(3000);
         String currentTitle = driver.getTitle();
-        if (currentTitle.equalsIgnoreCase("Create Contact - Contacts - Customers")) {
+        if (currentTitle.equalsIgnoreCase("Create Contact - Contacts - Customers")){
             System.out.println("Title is expected");
-        } else {
+        }else {
             System.out.println("Title is NOT expected");
         }
         //MEETING ID FOR TODAY CLASS: 949992072
-        HashMap<String, String> contact1 = new HashMap<>();
+        HashMap <String, String> contact1 = new HashMap<>();
         contact1.put("First Name", "John");
         contact1.put("Last Name", "Smith");
         contact1.put("Phone", "571-236-4545");
@@ -48,7 +47,6 @@ public class Vytrack {
         contact1.put("Sales Group", "true");
         contact1.put("Country", "United States");
         System.out.println("Contact 1: " + contact1);
-
         WebElement first_name = driver.findElement(By.xpath("(//input[@data-name = 'field__first-name'])[1]"));
         WebElement last_name = driver.findElement(By.xpath("(//input[@data-name = 'field__last-name'])[1]"));
         WebElement phone = driver.findElement(By.name("oro_contact_form[phones][0][phone]"));
@@ -76,9 +74,8 @@ public class Vytrack {
         it has different methods that help us interact with dropdown
          */
         country_dropdwn.selectByVisibleText(contact1.get("Country"));
-        if (contact1.get("Sales Group").equalsIgnoreCase("true")) {
+        if (contact1.get("Sales Group").equalsIgnoreCase("true")){
             salesGroup.click();
-
         }
 
     }
