@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d6e0d81-c476-4cb7-b9d0-ad358c7b397d" name="Default Changelist" comment="HomeworkEtsySearch">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/EtsyTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/OfficeHoursIframePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/StatusCodesWithNurullahN2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_and_synchronization/ExplicitWithExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_and_synchronization/ImplicitWithExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_and_synchronization/RandomStuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_and_synchronization/ThreadSleepExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_and_synchronization/VYTrackLoiginTestWithWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/ProperitiesExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/HomeWorkVytruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/HomeWorkVytruck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/HomeworkEtsySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/HomeworkEtsySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/HomeworkGetattributeExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/HomeworkShortCuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/HomeworkShortCuts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/HomeworkTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/HomeworkTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OfficeHours/HomeWorkVytruck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OfficeHours/HomeworkEtsySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OfficeHours/HomeworkGetattributeExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OfficeHours/HomeworkShortCuts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_review_2/GetAttributeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_review_2/GetAttributeExample.class" afterDir="false" />
-    </list>
+    <list default="true" id="5d6e0d81-c476-4cb7-b9d0-ad358c7b397d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1583011821947</updated>
     </task>
+    <task id="LOCAL-00001" summary="TestingTestBaseTests">
+      <created>1585687891735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585687891735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeworkEtsySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeworkEtsySearch" />
+    <MESSAGE value="TestingTestBaseTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestingTestBaseTests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="88" key="#Project_Structure" timestamp="1583473342762">
@@ -220,10 +205,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="484" y="315" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1585248670678" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1585686283192">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1585687891445">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585686283192" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585687891445" />
     <state x="556" y="44" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1584493505696" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1585154892287">
       <screen x="0" y="23" width="1440" height="832" />
