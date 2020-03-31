@@ -1,4 +1,4 @@
-package OfficeHours;
+package com.cybertek.tests.Homework;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -101,6 +101,14 @@ public class HomeworkEtsySearch {
 
 
     }
-         
 
+
+    public static class HomeworkGetattributeExamples {
+        public static void main(String[] args) {
+
+            WebDriver driver = WebDriverFactory.getDriver("chrome");
+
+            driver.get(" https://ebay.com");
+        }
     }
+}
