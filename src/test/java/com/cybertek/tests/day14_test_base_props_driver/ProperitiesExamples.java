@@ -45,6 +45,12 @@ public class ProperitiesExamples {
          String url =(ConfigurationReader.getPropery("url"));
          driver.get(url);
          driver.close();
-
+         String str = Singleton.getInstance().toUpperCase();
+         System.out.println(str);
+     }
+     @Test
+    public void test3(){
+        String str = Singleton.getInstance();
+         System.out.println(str);
      }
 }

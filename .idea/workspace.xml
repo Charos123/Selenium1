@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d6e0d81-c476-4cb7-b9d0-ad358c7b397d" name="Default Changelist" comment="" />
+    <list default="true" id="5d6e0d81-c476-4cb7-b9d0-ad358c7b397d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/WaitPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebTablesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/ProperitiesExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/ProperitiesExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_test_base_props_driver/ProperitiesExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_test_base_props_driver/ProperitiesExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/ConfigurationReader.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,61 +50,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.ProperitiesExamples.test">
-    <configuration name="ExplicitWithExamples.test4WaitForClickable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.ExplicitWithExamples" />
-      <option name="METHOD_NAME" value="test4WaitForClickable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExplicitWithExamples.test4WaitForVisible (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.ExplicitWithExamples" />
-      <option name="METHOD_NAME" value="test4WaitForVisible" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExplicitWithExamples.test4WaitForVisible" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronization.ExplicitWithExamples" />
-      <option name="METHOD_NAME" value="test4WaitForVisible" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ProperitiesExamples">
     <configuration name="ProperitiesExamples" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
@@ -112,17 +68,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProperitiesExamples.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTablesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day14_test_base_props_driver.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_test_base_props_driver" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_test_base_props_driver.ProperitiesExamples" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebTablesTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesTests.getHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebTablesTests" />
+      <option name="METHOD_NAME" value="getHeaders" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesTests.getSingleRowByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebTablesTests" />
+      <option name="METHOD_NAME" value="getSingleRowByIndex" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesTests.getTableSize" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebTablesTests" />
+      <option name="METHOD_NAME" value="getTableSize" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProperitiesExamples.test" />
         <item itemvalue="TestNG.ProperitiesExamples" />
-        <item itemvalue="TestNG.ExplicitWithExamples.test4WaitForVisible" />
-        <item itemvalue="TestNG.ExplicitWithExamples.test4WaitForVisible (1)" />
-        <item itemvalue="TestNG.ExplicitWithExamples.test4WaitForClickable" />
+        <item itemvalue="TestNG.WebTablesTests.getSingleRowByIndex" />
+        <item itemvalue="TestNG.WebTablesTests.getTableSize" />
+        <item itemvalue="TestNG.WebTablesTests" />
+        <item itemvalue="TestNG.WebTablesTests.getHeaders" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585687891735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TestingTestBaseTests">
+      <created>1585688708985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585688708985</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TestingTestBaseTests">
+      <created>1585688725437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585688725437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,10 +238,10 @@
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1585080990523" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1585154892287" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1585680232969">
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1585757603767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585680232969" />
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585757603767" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583383001665" />
     <state width="688" height="195" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1585587584279" />
     <state width="688" height="195" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1585589716840" />
@@ -227,10 +250,10 @@
     <state width="688" height="195" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1585253113474" />
     <state width="688" height="195" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1585463948432" />
     <state width="688" height="195" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1585429483919" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1585680232967">
+    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1585757603766">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585680232967" />
+    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585757603766" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583383001664" />
     <state width="688" height="195" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1585587584278" />
     <state width="688" height="195" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1585589716839" />
@@ -239,10 +262,10 @@
     <state width="688" height="195" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1585253113474" />
     <state width="688" height="195" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1585463948431" />
     <state width="688" height="195" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1585429483919" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1585680232967">
+    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1585757603766">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585680232967" />
+    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585757603766" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583383001663" />
     <state width="688" height="195" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1585587584277" />
     <state width="688" height="195" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1585589716838" />
@@ -251,10 +274,10 @@
     <state width="688" height="195" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1585253113473" />
     <state width="688" height="195" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1585463948430" />
     <state width="688" height="195" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1585429483918" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1585680232968">
+    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1585757603767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585680232968" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585757603767" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583383001664" />
     <state width="688" height="195" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1585587584279" />
     <state width="688" height="195" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1585589716840" />
@@ -302,10 +325,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="377" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1584819967926" />
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585075781331">
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585757885218">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1585075781331" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1585757885218" />
     <state x="458" y="211" key="extract.method.dialog" timestamp="1584980473525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

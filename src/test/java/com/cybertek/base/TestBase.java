@@ -5,17 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public abstract class  TestBase {
-    protected WebDriver driver;
+import java.sql.Driver;
 
+public abstract class  TestBase {
+  protected WebDriver driver;
 
      @BeforeMethod
     public void setupMethod(){
-         driver= WebDriverFactory.getDriver("chrome");
+       driver=WebDriverFactory.getDriver("chrome");
      }
       @AfterMethod
-    public void tearDownMethod(){
+    public void tearDownMethod() throws InterruptedException {
+         Thread.sleep(5000);
           driver.quit();
+
 
       }
 
